@@ -11,7 +11,7 @@ export default function Header() {
     const getDiff = () => {  
 
         let startDate = new Date();
-        let endDate = new Date('2024-03-08T12:00:00');
+        let endDate = new Date('2024-04-08T12:00:00');
 
         let diff =  endDate.getTime() - startDate.getTime();
 
