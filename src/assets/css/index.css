@@ -3,54 +3,49 @@
   padding: 0;
   box-sizing: border-box;
   border: none;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 300;
- 
 }
 
-
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 :root {
-  --first-color: #dbc685;
+  --first-color: #4c6665;
+  --font-color:#9ab5ae;
 }
 
-
 .title {
-  font-family: 'Petit Formal Script', cursive;
+  font-family: "Nothing You Could Do", cursive;
   font-weight: 200;
   font-size: 45px;
-  
+  color: #dbdad5;
   position: relative;
   padding: 0;
   margin: 0;
-
 }
 
 .primary-button {
-  padding: .5em 1em;
+  padding: 0.5em 1em;
   border-radius: 100px;
   background-color: var(--first-color);
   font-size: 1.2em;
   transition: all 200ms;
-  color: rgb(248, 248, 248);
+  color:#dbdad5;
 }
 
-
 .primary-button:hover {
-  background-color: #ffffff;
+  background-color: #dbdad5;
   color: var(--first-color);
   border: 1px solid var(--first-color);
 }
 
 .secondary-button {
-  padding: .5em 1em;
+  padding: 0.5em 1em;
   border-radius: 100px;
-  background-color: #ffffff;
+  background-color: #dbdad5;
   font-size: 1.2em;
   transition: all 200ms;
   color: var(--first-color);
@@ -58,6 +53,6 @@ code {
 
 .secondary-button:hover {
   background-color: var(--first-color);
-  color: #ffffff;
+  color: #dbdad5;
   border: 1px solid #ffffff;
 }

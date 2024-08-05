@@ -1,5 +1,5 @@
 .civil-content {
-    background: url(../static/fondo.jpg) ;
+    background: url(../static/fondo1.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@
 }
 
 .civil-content p {
-    color: rgb(209, 205, 194);
+    color: var(--first-color);
 }
 
 
